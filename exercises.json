@@ -1,0 +1,169 @@
+{
+  "exercises": [
+    {
+      "name": "Push-ups",
+      "difficulty": "easy",
+      "sets": 3
+    },
+    {
+      "name": "Sit-ups",
+      "difficulty": "easy",
+      "sets": 3
+    },
+    {
+      "name": "Squats",
+      "difficulty": "easy",
+      "sets": 3
+    },
+    {
+      "name": "Plank",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Jumping Jacks",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Lunges",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Burpees",
+      "difficulty": "hard",
+      "sets": 3
+    },
+    {
+      "name": "Mountain Climbers",
+      "difficulty": "hard",
+      "sets": 3
+    },
+    {
+      "name": "Plank Rotations",
+      "difficulty": "hard",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Shoulder Press",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Bicep Curl",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Tricep Kickback",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Deadlift",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Front Raise",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Lateral Raise",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Bent Over Row",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Reverse Fly",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Squat Press",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Lunges",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Step-ups",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Renegade Rows",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Thrusters",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Russian Twists",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Chest Press",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Flyes",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Bent Over Reverse Flyes",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Hammer Curls",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Reverse Lunges",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Front Squats",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Side Lunges",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Side Raises",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Romanian Deadlifts",
+      "difficulty": "medium",
+      "sets": 3
+    },
+    {
+      "name": "Dumbbell Shoulder Shrugs",
+      "difficulty": "medium",
+      "sets": 3
+    }
+  ]
+}

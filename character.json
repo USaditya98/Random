@@ -1,0 +1,634 @@
+{
+  "superheroes": [
+    {
+      "name": "Phoenix Guardian",
+      "rarity": "Legendary",
+      "abilities": ["Pyrokinesis", "Flight", "Telepathy", "Energy manipulation"],
+      "chakra_nature": "Fire",
+      "rating": 9.5,
+      "power": "Elemental control over fire and psychic abilities",
+      "weakness": "Emotional instability, vulnerability to extreme cold"
+    },
+    {
+      "name": "Shadow Blade",
+      "rarity": "Epic",
+      "abilities": ["Shadow manipulation", "Teleportation", "Invisibility", "Enhanced agility"],
+      "chakra_nature": "Darkness",
+      "rating": 9.2,
+      "power": "Ability to control and manipulate shadows, teleportation, and stealth",
+      "weakness": "Susceptible to light-based attacks, limited effectiveness in brightly lit environments"
+    },
+    {
+      "name": "Thunderstorm",
+      "rarity": "Rare",
+      "abilities": ["Electrokinesis", "Flight", "Weather manipulation", "Enhanced durability"],
+      "chakra_nature": "Electricity",
+      "rating": 8.7,
+      "power": "Can generate and control lightning, manipulate weather patterns, and fly",
+      "weakness": "Susceptible to insulation, limited ability to control emotions during storms"
+    },
+    {
+      "name": "Blaze Runner",
+      "rarity": "Common",
+      "abilities": ["Super speed", "Fire resistance", "Enhanced reflexes", "Heat generation"],
+      "chakra_nature": "Fire",
+      "rating": 7.2,
+      "power": "Can run at incredibly fast speeds, immune to fire, and generates heat",
+      "weakness": "Vulnerable to water-based attacks, overexertion leads to fatigue"
+    },
+    {
+      "name": "Frostbite",
+      "rarity": "Uncommon",
+      "abilities": ["Cryokinesis", "Ice manipulation", "Cold resistance", "Enhanced senses"],
+      "chakra_nature": "Ice",
+      "rating": 7.5,
+      "power": "Can create and control ice, immune to extreme cold, and has heightened senses",
+      "weakness": "Vulnerable to heat-based attacks, prolonged exposure to warmth reduces power"
+    },
+    {
+      "name": "Mind Bender",
+      "rarity": "Rare",
+      "abilities": ["Telekinesis", "Mind control", "Illusion manipulation", "Enhanced intellect"],
+      "chakra_nature": "Psychic",
+      "rating": 8.3,
+      "power": "Can move objects with the mind, control thoughts, create illusions, and has a genius-level intellect",
+      "weakness": "Mental fatigue, susceptible to psychic attacks from stronger opponents"
+    },
+    {
+      "name": "Aurora",
+      "rarity": "Epic",
+      "abilities": ["Light manipulation", "Energy absorption", "Flight", "Solar empowerment"],
+      "chakra_nature": "Light",
+      "rating": 9.0,
+      "power": "Can manipulate light, absorb energy, fly, and gains strength from sunlight",
+      "weakness": "Weak in darkness, overexposure to sunlight leads to exhaustion"
+    },
+    {
+      "name": "Titan",
+      "rarity": "Legendary",
+      "abilities": ["Super strength", "Invulnerability", "Regeneration", "Enhanced senses"],
+      "chakra_nature": "Earth",
+      "rating": 9.8,
+      "power": "Possesses immense strength, nearly indestructible, heals rapidly, and has heightened senses",
+      "weakness": "Vulnerable to rare materials, requires significant energy for regeneration"
+    },
+    {
+      "name": "Spectra",
+      "rarity": "Mythic",
+      "abilities": ["Energy manipulation", "Flight", "Intangibility", "Phasing"],
+      "chakra_nature": "Energy",
+      "rating": 9.1,
+      "power": "Can manipulate energy, fly, become intangible, and phase through objects",
+      "weakness": "Energy depletion, vulnerability to anti-energy technology"
+    },
+    {
+      "name": "Nova",
+      "rarity": "Mythic",
+      "abilities": ["Cosmic manipulation", "Reality warping", "Time manipulation", "Dimensional travel"],
+      "chakra_nature": "Cosmic",
+      "rating": 10.0,
+      "power": "Controls cosmic forces, can alter reality, manipulate time, and travel between dimensions",
+      "weakness": "Existential threat, loss of control leads to catastrophic consequences"
+    },
+    {
+      "name": "Solaris",
+      "rarity": "Rare",
+      "abilities": ["Solar energy absorption", "Energy projection", "Flight", "Thermal manipulation"],
+      "chakra_nature": "Solar",
+      "rating": 8.6,
+      "power": "Absorbs solar energy for power, projects energy blasts, flies, and controls heat",
+      "weakness": "Dependent on sunlight for power, vulnerability to darkness"
+    },
+    {
+      "name": "Mystique",
+      "rarity": "Legendary",
+      "abilities": ["Shapeshifting", "Mimicry", "Regeneration", "Adaptation"],
+      "chakra_nature": "Mystic",
+      "rating": 9.9,
+      "power": "Can change appearance, mimic voices and abilities, heal rapidly, and adapt to surroundings",
+      "weakness": "Requires concentration for shapeshifting, vulnerability to psychic attacks"
+    },
+    {
+      "name": "Lunar Knight",
+      "rarity": "Uncommon",
+      "abilities": ["Lunar manipulation", "Enhanced strength", "Night vision", "Lunar energy projection"],
+      "chakra_nature": "Moon",
+      "rating": 7.4,
+      "power": "Manipulates lunar energy, possesses enhanced strength, sees clearly in darkness, and projects lunar energy blasts",
+      "weakness": "Power wanes during daylight, vulnerable to anti-moon technology"
+    },
+    {
+      "name": "Crystal Storm",
+      "rarity": "Rare",
+      "abilities": ["Crystal manipulation", "Energy absorption", "Crystal armor", "Vibration manipulation"],
+      "chakra_nature": "Earth",
+      "rating": 8.0,
+      "power": "Controls and shapes crystals, absorbs energy, creates crystal armor, and manipulates vibrations",
+      "weakness": "Susceptible to sonic attacks, crystal armor is brittle against sharp impacts"
+    },
+    {
+      "name": "Vortex",
+      "rarity": "Uncommon",
+      "abilities": ["Wind manipulation", "Flight", "Enhanced agility", "Sonic scream"],
+      "chakra_nature": "Air",
+      "rating": 7.3,
+      "power": "Controls wind, flies, moves with enhanced agility, and emits powerful sonic screams",
+      "weakness": "Vulnerable to extreme weather conditions, requires concentration for precise control"
+    },
+    {
+      "name": "Magma",
+      "rarity": "Rare",
+      "abilities": ["Magma manipulation", "Heat resistance", "Lava generation", "Earthquake manipulation"],
+      "chakra_nature": "Fire/Earth",
+      "rating": 8.1,
+      "power": "Controls magma, withstands high temperatures, creates lava, and causes earthquakes",
+      "weakness": "Susceptible to water-based attacks, can be weakened by extreme cold"
+    },
+    {
+      "name": "Aegis",
+      "rarity": "Common",
+      "abilities": ["Enhanced durability", "Shield generation", "Energy absorption", "Enhanced strength"],
+      "chakra_nature": "Energy",
+      "rating": 7.0,
+      "power": "Has exceptional durability, generates protective shields, absorbs energy, and possesses enhanced strength",
+      "weakness": "Shield has limits, prolonged exposure to attacks can weaken durability"
+    },
+    {
+      "name": "Tempest",
+      "rarity": "Uncommon",
+      "abilities": ["Hydrokinesis", "Water manipulation", "Storm generation", "Aquatic adaptation"],
+      "chakra_nature": "Water",
+      "rating": 7.5,
+      "power": "Controls water, manipulates its form, generates storms, and adapts to underwater environments",
+      "weakness": "Susceptible to dehydration, reduced power in arid environments"
+    },
+    {
+      "name": "Nova",
+      "rarity": "Rare",
+      "abilities": ["Gravity manipulation", "Flight", "Energy projection", "Black hole creation"],
+      "chakra_nature": "Cosmic",
+      "rating": 8.2,
+      "power": "Manipulates gravity, flies, emits energy blasts, and creates miniature black holes",
+      "weakness": "Limited control over black holes, energy depletion from prolonged use"
+    },
+    {
+      "name": "Azure",
+      "rarity": "Epic",
+      "abilities": ["Ice manipulation", "Cryokinetic constructs", "Absolute zero projection", "Cryogenic regeneration"],
+      "chakra_nature": "Ice",
+      "rating": 9.3,
+      "power": "Controls ice, creates solid constructs, emits freezing blasts, and regenerates in sub-zero temperatures",
+      "weakness": "Vulnerable to extreme heat, prolonged exposure to warmth reduces power"
+    },
+    {
+      "name": "Nebula",
+      "rarity": "Legendary",
+      "abilities": ["Space-time manipulation", "Teleportation", "Reality warping", "Quantum energy manipulation"],
+      "chakra_nature": "Cosmic",
+      "rating": 9.7,
+      "power": "Alters space-time, teleports instantly, warps reality, and controls quantum energy",
+      "weakness": "Strain on the fabric of reality, loss of control can cause dimensional instability"
+    },
+    {
+      "name": "Solstice",
+      "rarity": "Mythic",
+      "abilities": ["Solar empowerment", "Heat manipulation", "Light manipulation", "Solar flares"],
+      "chakra_nature": "Solar",
+      "rating": 10.0,
+      "power": "Draws power from the sun, controls heat and light, and unleashes devastating solar flares",
+      "weakness": "Reliance on solar energy, vulnerability during solar eclipses"
+    },
+    {
+      "name": "Valkyrie",
+      "rarity": "Uncommon",
+      "abilities": ["Valkyrie physiology", "Enhanced combat skills", "Flight", "Divine energy manipulation"],
+      "chakra_nature": "Divine",
+      "rating": 7.6,
+      "power": "Possesses enhanced physical abilities, skilled in combat, flies, and manipulates divine energy",
+      "weakness": "Susceptible to anti-divine weaponry, moral code prevents lethal actions"
+    },
+    {
+      "name": "Specter",
+      "rarity": "Rare",
+      "abilities": ["Intangibility", "Invisibility", "Teleportation", "Phasing"],
+      "chakra_nature": "Shadow",
+      "rating": 8.0,
+      "power": "Can become intangible, invisible, teleport short distances, and phase through objects",
+      "weakness": "Energy depletion leads to physical exhaustion, limited duration of intangibility"
+    },
+    {
+      "name": "Aqua",
+      "rarity": "Uncommon",
+      "abilities": ["Hydrokinesis", "Aquatic adaptation", "Water manipulation", "Enhanced swimming"],
+      "chakra_nature": "Water",
+      "rating": 7.4,
+      "power": "Controls water, adapts to underwater environments, manipulates its form, and swims at incredible speeds",
+      "weakness": "Susceptible to dehydration, reduced power in arid environments"
+    },
+    {
+      "name": "Serenade",
+      "rarity": "Common",
+      "abilities": ["Sound manipulation", "Sonic blasts", "Hypnotic voice", "Enhanced hearing"],
+      "chakra_nature": "Sound",
+      "rating": 7.1,
+      "power": "Manipulates sound waves, emits sonic blasts, hypnotizes with voice, and has acute hearing",
+      "weakness": "Sensitive to loud noises, loss of concentration affects control over powers"
+    },
+    {
+      "name": "Chrono",
+      "rarity": "Rare",
+      "abilities": ["Time manipulation", "Temporal acceleration", "Precognition", "Temporal displacement"],
+      "chakra_nature": "Temporal",
+      "rating": 8.3,
+      "power": "Controls time, speeds up or slows down events, predicts the future, and moves through time",
+      "weakness": "Temporal paradoxes, strain on the fabric of reality"
+    },
+    {
+      "name": "Nimbus",
+      "rarity": "Uncommon",
+      "abilities": ["Cloud manipulation", "Weather control", "Flight", "Electrokinesis"],
+      "chakra_nature": "Air",
+      "rating": 7.7,
+      "power": "Manipulates clouds, controls weather patterns, flies, and generates lightning",
+      "weakness": "Susceptible to anti-weather technology, energy depletion in overcast conditions"
+    },
+    {
+      "name": "Lumin",
+      "rarity": "Common",
+      "abilities": ["Light manipulation", "Photokinesis", "Optical illusions", "Enhanced perception"],
+      "chakra_nature": "Light",
+      "rating": 7.0,
+      "power": "Controls light, emits light beams, creates optical illusions, and has enhanced vision",
+      "weakness": "Vulnerable to darkness, blinding lights affect concentration"
+    },
+    {
+      "name": "Inferno",
+      "rarity": "Rare",
+      "abilities": ["Fire manipulation", "Heat resistance", "Pyrokinetic constructs", "Fire immunity"],
+      "chakra_nature": "Fire",
+      "rating": 8.2,
+      "power": "Manipulates fire, withstands high temperatures, creates fiery constructs, and is immune to fire",
+      "weakness": "Susceptible to water-based attacks, exhaustion from prolonged heat exposure"
+    },
+    {
+      "name": "Aegis",
+      "rarity": "Common",
+      "abilities": ["Enhanced durability", "Shield generation", "Energy absorption", "Enhanced strength"],
+      "chakra_nature": "Energy",
+      "rating": 7.0,
+      "power": "Has exceptional durability, generates protective shields, absorbs energy, and possesses enhanced strength",
+      "weakness": "Shield has limits, prolonged exposure to attacks can weaken durability"
+    },
+    {
+      "name": "Tempest",
+      "rarity": "Uncommon",
+      "abilities": ["Hydrokinesis", "Water manipulation", "Storm generation", "Aquatic adaptation"],
+      "chakra_nature": "Water",
+      "rating": 7.5,
+      "power": "Controls water, manipulates its form, generates storms, and adapts to underwater environments",
+      "weakness": "Susceptible to dehydration, reduced power in arid environments"
+    },
+    {
+      "name": "Bhoomi",
+      "rarity": "Rare",
+      "abilities": ["Geokinesis", "Earth manipulation", "Terraforming", "Plant control"],
+      "chakra_nature": "Earth",
+      "rating": 8.4,
+      "power": "Can manipulate earth, shape landscapes, terraform areas, and control plant life",
+      "weakness": "Vulnerable to seismic attacks, overexertion leads to exhaustion"
+    },
+    {
+      "name": "Jaladhija",
+      "rarity": "Uncommon",
+      "abilities": ["Hydrokinesis", "Water manipulation", "Marine telepathy", "Aquatic adaptation"],
+      "chakra_nature": "Water",
+      "rating": 7.8,
+      "power": "Controls water, shapes its form, communicates with marine life, and adapts to underwater environments",
+      "weakness": "Susceptible to dehydration, reduced power in arid environments"
+    },
+    {
+      "name": "Vayu",
+      "rarity": "Rare",
+      "abilities": ["Aerokinesis", "Air manipulation", "Flight", "Sonic manipulation"],
+      "chakra_nature": "Air",
+      "rating": 8.1,
+      "power": "Manipulates air currents, flies, creates sonic blasts, and controls sound waves",
+      "weakness": "Susceptible to vacuum conditions, limited effectiveness in confined spaces"
+    },
+    {
+      "name": "Prithvi",
+      "rarity": "Common",
+      "abilities": ["Enhanced strength", "Durability", "Tectonic sensing", "Earthquake generation"],
+      "chakra_nature": "Earth",
+      "rating": 7.0,
+      "power": "Possesses superhuman strength and durability, senses tectonic movements, and generates earthquakes",
+      "weakness": "Limited mobility in urban environments, seismic attacks affect equilibrium"
+    },
+    {
+      "name": "Surya",
+      "rarity": "Epic",
+      "abilities": ["Solar manipulation", "Solar energy absorption", "Thermal manipulation", "Flight"],
+      "chakra_nature": "Solar",
+      "rating": 9.2,
+      "power": "Controls solar energy, absorbs sunlight for power, manipulates heat, and flies",
+      "weakness": "Reliant on sunlight for power, weakened during eclipses"
+    },
+    {
+      "name": "Vikram",
+      "rarity": "Rare",
+      "abilities": ["Light manipulation", "Photokinesis", "Optical illusions", "Enhanced perception"],
+      "chakra_nature": "Light",
+      "rating": 8.0,
+      "power": "Manipulates light, emits light beams, creates optical illusions, and has enhanced vision",
+      "weakness": "Vulnerable to darkness, blinding lights affect concentration"
+    },
+    {
+      "name": "Varuna",
+      "rarity": "Uncommon",
+      "abilities": ["Hydrokinesis", "Water manipulation", "Rain generation", "Water breathing"],
+      "chakra_nature": "Water",
+      "rating": 7.6,
+      "power": "Controls water, creates rain, and can breathe underwater",
+      "weakness": "Susceptible to dehydration, reduced power in arid environments"
+    },
+    {
+      "name": "Agni",
+      "rarity": "Rare",
+      "abilities": ["Pyrokinesis", "Fire manipulation", "Heat resistance", "Fire immunity"],
+      "chakra_nature": "Fire",
+      "rating": 8.3,
+      "power": "Controls fire, withstands high temperatures, and is immune to fire",
+      "weakness": "Susceptible to water-based attacks, exhaustion from prolonged heat exposure"
+    },
+    {
+      "name": "Garuda",
+      "rarity": "Epic",
+      "abilities": ["Flight", "Enhanced vision", "Wind manipulation", "Energy blasts"],
+      "chakra_nature": "Wind",
+      "rating": 9.0,
+      "power": "Flies at incredible speeds, has enhanced vision, controls wind, and emits powerful energy blasts",
+      "weakness": "Limited maneuverability in tight spaces, high-speed collisions cause injury"
+    },
+    {
+      "name": "Brahma",
+      "rarity": "Legendary",
+      "abilities": ["Reality manipulation", "Creation", "Cosmic awareness", "Time manipulation"],
+      "chakra_nature": "Cosmic",
+      "rating": 9.9,
+      "power": "Alters reality, creates matter from nothing, perceives cosmic events, and controls time",
+      "weakness": "Strain on the fabric of reality, loss of control leads to catastrophic consequences"
+    },
+    {
+      "name": "Indra",
+      "rarity": "Rare",
+      "abilities": ["Electricity manipulation", "Thunder manipulation", "Weather control", "Flight"],
+      "chakra_nature": "Electricity",
+      "rating": 8.2,
+      "power": "Manipulates electricity, creates thunderstorms, controls weather patterns, and flies",
+      "weakness": "Susceptible to insulation, requires focus during lightning storms"
+    },
+    {
+      "name": "Durga",
+      "rarity": "Epic",
+      "abilities": ["Divine strength", "Combat prowess", "Weapon mastery", "Divine protection"],
+      "chakra_nature": "Divine",
+      "rating": 9.1,
+      "power": "Possesses immense strength, expert in combat, skilled with weapons, and protected by divine forces",
+      "weakness": "Exhaustion from prolonged battles, vulnerability to powerful magic"
+    },
+    {
+      "name": "Kali",
+      "rarity": "Rare",
+      "abilities": ["Darkness manipulation", "Shadow teleportation", "Enhanced agility", "Fear inducement"],
+      "chakra_nature": "Darkness",
+      "rating": 8.4,
+      "power": "Controls darkness, teleports through shadows, moves with enhanced agility, and induces fear in opponents",
+      "weakness": "Limited effectiveness in brightly lit areas, psychological trauma affects abilities"
+    },
+    {
+      "name": "Mahesh",
+      "rarity": "Uncommon",
+      "abilities": ["Martial arts mastery", "Weapon proficiency", "Enhanced reflexes", "Chi manipulation"],
+      "chakra_nature": "Martial",
+      "rating": 7.7,
+      "power": "Master of martial arts and weaponry, possesses heightened reflexes, and manipulates chi energy",
+      "weakness": "Fatigue from prolonged combat, vulnerable to ranged attacks"
+    },
+    {
+      "name": "Parvati",
+      "rarity": "Epic",
+      "abilities": ["Nature manipulation", "Life creation", "Healing", "Empathy"],
+      "chakra_nature": "Nature",
+      "rating": 9.2,
+      "power": "Controls nature, creates life, heals injuries, and empathizes with living beings",
+      "weakness": "Emotional vulnerability, destruction of nature affects powers"
+    },
+    {
+      "name": "Hanuman",
+      "rarity": "Legendary",
+      "abilities": ["Shapeshifting", "Flight", "Super strength", "Divine blessings"],
+      "chakra_nature": "Divine",
+      "rating": 9.9,
+      "power": "Can change shape, fly, possesses immense strength, and blessed with divine protection",
+      "weakness": "Rare transformations require concentration, vulnerability to divine curses"
+    },
+    {
+      "name": "Ganga",
+      "rarity": "Rare",
+      "abilities": ["Water manipulation", "Purification", "Tidal control", "Water portal creation"],
+      "chakra_nature": "Water",
+      "rating": 8.3,
+      "power": "Controls water, purifies it, manipulates tides, and creates portals with water",
+      "weakness": "Susceptible to contamination, limited effectiveness in arid regions"
+    },
+    {
+      "name": "Rudra",
+      "rarity": "Epic",
+      "abilities": ["Storm manipulation", "Lightning control", "Thunderclap", "Weather sensing"],
+      "chakra_nature": "Storm",
+      "rating": 9.0,
+      "power": "Manipulates storms, controls lightning, produces thunderclaps, and senses changes in weather",
+      "weakness": "Exhaustion from maintaining storms, vulnerability to anti-weather technology"
+    },
+    {
+      "name": "Arya",
+      "rarity": "Common",
+      "abilities": ["Enhanced agility", "Weapon proficiency", "Stealth", "Acrobatics"],
+      "chakra_nature": "Martial",
+      "rating": 7.1,
+      "power": "Moves with exceptional agility, skilled in various weapons, adept at stealth, and performs acrobatic feats",
+      "weakness": "Susceptible to traps, limited effectiveness in direct confrontations"
+    },
+    {
+      "name": "Ryuto Uzumaki",
+      "rarity": "Rare",
+      "abilities": ["Wind Release", "Rasengan", "Shadow Clone Technique", "Chakra Enhanced Strength"],
+      "chakra_nature": "Wind",
+      "rating": 8.2,
+      "power": "Mastery over Wind Release techniques, capable of using Rasengan, proficient in Shadow Clone Technique, possesses enhanced strength through chakra manipulation",
+      "weakness": "Drains chakra rapidly, susceptible to Lightning Release techniques"
+    },
+    {
+      "name": "Sakura Haruno",
+      "rarity": "Epic",
+      "abilities": ["Cherry Blossom Clash", "Medical Ninjutsu", "Superhuman Strength", "Healing"],
+      "chakra_nature": "None",
+      "rating": 9.0,
+      "power": "Mastered Cherry Blossom Clash, skilled in Medical Ninjutsu, possesses superhuman strength, proficient in healing techniques",
+      "weakness": "Relatively low chakra reserves, lacks long-range offensive jutsu"
+    },
+    {
+      "name": "Hinata Hyuga",
+      "rarity": "Uncommon",
+      "abilities": ["Byakugan", "Gentle Fist", "Eight Trigrams Sixty-Four Palms", "Protective Eight Trigrams Sixty-Four Palms"],
+      "chakra_nature": "None",
+      "rating": 7.5,
+      "power": "Byakugan user, adept in Gentle Fist style, capable of using Eight Trigrams Sixty-Four Palms, proficient in Protective Eight Trigrams Sixty-Four Palms",
+      "weakness": "Low stamina, lacks versatility in combat"
+    },
+    {
+      "name": "Shikamaru Nara",
+      "rarity": "Rare",
+      "abilities": ["Shadow Possession Technique", "Shadow Stitching Technique", "Shadow Imitation Shuriken Technique", "Genius Intellect"],
+      "chakra_nature": "None",
+      "rating": 8.3,
+      "power": "Mastered Shadow Possession Technique, proficient in Shadow Stitching Technique, skilled in Shadow Imitation Shuriken Technique, possesses genius-level intellect",
+      "weakness": "Requires strategic planning, limited offensive capabilities"
+    },
+    {
+      "name": "Gaara",
+      "rarity": "Epic",
+      "abilities": ["Sand Manipulation", "Sand Shield", "Sand Coffin", "Shield of Shukaku"],
+      "chakra_nature": "Wind",
+      "rating": 9.1,
+      "power": "Controls sand with precision, capable of creating impenetrable sand shields, uses Sand Coffin for offensive maneuvers, empowered by the Shield of Shukaku",
+      "weakness": "Dependent on sand availability, vulnerability to water-based attacks"
+    },
+    {
+      "name": "Sasuke Uchiha",
+      "rarity": "Legendary",
+      "abilities": ["Chidori", "Sharingan", "Fire Release", "Susanoo"],
+      "chakra_nature": "Fire",
+      "rating": 9.8,
+      "power": "Mastery over Chidori, possesses Sharingan with advanced abilities, skilled in Fire Release techniques, capable of summoning Susanoo",
+      "weakness": "Struggles with internal conflicts, risks of overusing Sharingan"
+    },
+    {
+      "name": "Tenten",
+      "rarity": "Rare",
+      "abilities": ["Weapon Summoning", "Taijutsu", "Kenjutsu", "Sealing Techniques"],
+      "chakra_nature": "None",
+      "rating": 8.0,
+      "power": "Mastery over weapon summoning jutsu, proficient in taijutsu and kenjutsu, skilled in sealing techniques",
+      "weakness": "Relies heavily on weapons, lacks powerful offensive jutsu"
+    },
+    {
+      "name": "Neji Hyuga",
+      "rarity": "Epic",
+      "abilities": ["Byakugan", "Gentle Fist", "Eight Trigrams Sixty-Four Palms", "Rotation"],
+      "chakra_nature": "None",
+      "rating": 9.2,
+      "power": "Byakugan user, adept in Gentle Fist style, capable of using Eight Trigrams Sixty-Four Palms, proficient in Rotation technique for defense",
+      "weakness": "Limited versatility in combat, low chakra reserves"
+    },
+    {
+      "name": "Rock Lee",
+      "rarity": "Uncommon",
+      "abilities": ["Eight Gates", "Taijutsu", "Drunken Fist", "Immense Speed"],
+      "chakra_nature": "None",
+      "rating": 7.7,
+      "power": "Mastered the Eight Gates technique, highly skilled in taijutsu, proficient in Drunken Fist style, possesses incredible speed",
+      "weakness": "Lacks long-range attacks, vulnerable without access to Eight Gates"
+    },
+    {
+      "name": "Ino Yamanaka",
+      "rarity": "Rare",
+      "abilities": ["Mind Transfer Technique", "Mind Body Switch Technique", "Mind Sensing", "Medical Ninjutsu"],
+      "chakra_nature": "None",
+      "rating": 8.1,
+      "power": "Mastered Mind Transfer Technique, proficient in Mind Body Switch Technique, skilled in Mind Sensing, capable in Medical Ninjutsu",
+      "weakness": "Requires concentration for mind-based techniques, limited effectiveness in direct combat"
+    },
+    {
+      "name": "Choji Akimichi",
+      "rarity": "Rare",
+      "abilities": ["Partial Expansion", "Human Boulder", "Butterfly Mode", "Calorie Control"],
+      "chakra_nature": "None",
+      "rating": 8.0,
+      "power": "Utilizes Partial Expansion jutsu for strength, capable of transforming into Human Boulder, accesses Butterfly Mode for enhanced abilities, controls calorie intake for strategic advantage",
+      "weakness": "Dependent on calorie intake for effectiveness, limited mobility in larger forms"
+    },
+    {
+      "name": "Kiba Inuzuka",
+      "rarity": "Uncommon",
+      "abilities": ["Beast Transformation", "Fang Passing Fang", "Ninja Hound Technique", "Enhanced Senses"],
+      "chakra_nature": "None",
+      "rating": 7.5,
+      "power": "Transforms into beast-like form for combat, utilizes Fang Passing Fang technique, employs Ninja Hound Technique for tracking, possesses heightened senses",
+      "weakness": "Relies heavily on animal companions, lacks versatility in ninjutsu"
+    },
+    {
+      "name": "Shino Aburame",
+      "rarity": "Rare",
+      "abilities": ["Parasitic Insects", "Bug Clone Technique", "Bug Wall", "Sensory Perception"],
+      "chakra_nature": "None",
+      "rating": 8.2,
+      "power": "Commands parasitic insects for offense and defense, creates clones made of bugs, erects protective barriers with Bug Wall technique, possesses exceptional sensory perception",
+      "weakness": "Vulnerable to insect-repelling techniques, limited effectiveness in direct combat without insects"
+    },
+    {
+      "name": "Kankuro",
+      "rarity": "Rare",
+      "abilities": ["Puppet Mastery", "Puppet Summoning", "Puppet Manipulation", "Poison Techniques"],
+      "chakra_nature": "None",
+      "rating": 8.0,
+      "power": "Mastered Puppet Mastery, summons and controls puppets for combat, proficient in poison techniques",
+      "weakness": "Puppets can be disabled or destroyed, vulnerable in close-quarters combat"
+    },
+    {
+      "name": "Tsunade Senju",
+      "rarity": "Legendary",
+      "abilities": ["Medical Ninjutsu", "Creation Rebirth", "Hundred Healings Technique", "Immense Strength"],
+      "chakra_nature": "None",
+      "rating": 9.8,
+      "power": "Expert in Medical Ninjutsu, possesses Creation Rebirth for regeneration, mastered Hundred Healings Technique for healing, renowned for immense physical strength",
+      "weakness": "Requires extensive chakra for powerful techniques, risk of overexertion"
+    },
+    {
+      "name": "Jiraiya",
+      "rarity": "Legendary",
+      "abilities": ["Toad Summoning", "Sage Mode", "Rasengan", "Summoning: Food Cart Destroyer Technique"],
+      "chakra_nature": "None",
+      "rating": 9.9,
+      "power": "Summons toads for combat, enters Sage Mode for enhanced abilities, mastered Rasengan, summons giant toad for devastating attack with Food Cart Destroyer Technique",
+      "weakness": "Limited duration of Sage Mode, susceptibility to genjutsu"
+    },
+    {
+      "name": "Kakashi Hatake",
+      "rarity": "Legendary",
+      "abilities": ["Sharingan", "Kamui", "Raikiri", "Summoning: Lightning Blade Creation"],
+      "chakra_nature": "Lightning",
+      "rating": 9.7,
+      "power": "Possesses Sharingan with advanced abilities, uses Kamui for intangible attacks, mastered Raikiri, summons lightning-infused blade with Lightning Blade Creation",
+      "weakness": "Struggles with chakra consumption, risks of blindness from overuse of Sharingan"
+    },
+    {
+      "name": "Orochimaru",
+      "rarity": "Legendary",
+      "abilities": ["Snake Summoning", "Snake Techniques", "Body Shedding", "Immortality"],
+      "chakra_nature": "None",
+      "rating": 9.9,
+      "power": "Summons and controls snakes, utilizes various snake-based techniques, sheds body for regeneration, achieved immortality through experiments",
+      "weakness": "Vulnerable without host bodies, risk of being sealed away"
+    },
+    {
+      "name": "Madara Uchiha",
+      "rarity": "Mythic",
+      "abilities": ["Eternal Mangekyou Sharingan", "Wood Release", "Susanoo", "Limbo: Border Jail"],
+      "chakra_nature": "Fire/Wind",
+      "rating": 10.0,
+      "power": "Wields Eternal Mangekyou Sharingan with unparalleled skill, possesses Wood Release kekkei genkai, summons Susanoo for defense and offense, uses Limbo: Border Jail for invisible attacks",
+      "weakness": "Susceptibility to Sage and Senjutsu techniques, potential strain on body from overuse of Sharingan"
+    }
+  ]
+}

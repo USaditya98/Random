@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #150202;
+    /* background-image: linear-gradient(45deg, #07090c, #150202); */
+    overflow: hidden; /* Prevent content overflow */
+    /* gap:14px; */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1 {
+    color: #80ff00;
+    font-size: 48px;
+    /* margin-bottom: 20px; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #ffffff;
+    font-size: 22px;
+    /* margin-bottom: 20px; */
+    /* line-height: 1.5; */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #e64a19;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    
+}
+a{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #e64a19;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom:20px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #d05630;
+}
+
+#actDescription {
+    font-size: 3rem;
+    /* color: #fff; */
+    margin-bottom: 40px 0;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+    text-transform: uppercase;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px; */
+    position: relative;
+}
+
+  
+  #actDescription::before {
+    content: "";
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    z-index: -1; /* to position the background text behind the content */
+    font-size:12rem;
+    
+    padding: 10px; /* adjust padding as needed */
+  }
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@keyframes roll {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+}

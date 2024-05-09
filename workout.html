@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Workout Generator</title>
+    <link rel="stylesheet" href="workout.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Workout Generator</h1>
+        <div class="options">
+            <label for="duration">Duration (minutes):</label>
+            <input type="number" id="duration" min="5" max="120" value="30">
+            
+            <label for="breakTime">Break Time (minutes):</label>
+            <input type="number" id="breakTime" min="0" max="10" value="1">
+            
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            
+            <button id="generateButton">Generate Workout</button>
+        </div>
+        
+        <div id="workout" class="workout">
+            <!-- Workout will be displayed here -->
+        </div>
+    </div>
+
+    <script src="workout.js"></script>
+</body>
+</html>

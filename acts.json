@@ -1,0 +1,605 @@
+{
+    "acts_of_kindness": [
+      {
+        "id": 1,
+        "description": "Smile at a stranger."
+      },
+      {
+        "id": 2,
+        "description": "Hold the door open for someone."
+      },
+      {
+        "id": 3,
+        "description": "Compliment a coworker or friend."
+      },
+      {
+        "id": 4,
+        "description": "Donate gently used clothes to a local charity."
+      },
+      {
+        "id": 5,
+        "description": "Leave a positive note in a public place for someone to find."
+      },
+      {
+        "id": 6,
+        "description": "Pay for the coffee or meal of the person behind you in line."
+      },
+      {
+        "id": 7,
+        "description": "Offer to help someone carry their groceries."
+      },
+      {
+        "id": 8,
+        "description": "Send a handwritten letter or card to a friend or family member."
+      },
+      {
+        "id": 9,
+        "description": "Volunteer your time at a local community organization or shelter."
+      },
+      {
+        "id": 10,
+        "description": "Leave a generous tip for a server or delivery person."
+      },
+      {
+        "id": 11,
+        "description": "Plant a tree or flowers in a public space."
+      },
+      {
+        "id": 12,
+        "description": "Listen attentively to someone who needs to talk."
+      },
+      {
+        "id": 13,
+        "description": "Offer to walk a neighbor's dog or pet sit for them."
+      },
+      {
+        "id": 14,
+        "description": "Share your knowledge or skills by offering free lessons or tutoring."
+      },
+      {
+        "id": 15,
+        "description": "Bake cookies or treats and share them with your neighbors."
+      },
+      {
+        "id": 16,
+        "description": "Leave encouraging messages on sticky notes in public restrooms or on mirrors."
+      },
+      {
+        "id": 17,
+        "description": "Offer to mow your neighbor's lawn or shovel their driveway."
+      },
+      {
+        "id": 18,
+        "description": "Give up your seat on public transportation for someone who needs it more."
+      },
+      {
+        "id": 19,
+        "description": "Send a care package to a deployed military member or someone in need."
+      },
+      {
+        "id": 20,
+        "description": "Offer to babysit for a friend or family member for free."
+      },
+      {
+        "id": 21,
+        "description": "Donate blood to a local blood bank."
+      },
+      {
+        "id": 22,
+        "description": "Pick up litter in your neighborhood or local park."
+      },
+      {
+        "id": 23,
+        "description": "Buy a meal for a homeless person."
+      },
+      {
+        "id": 24,
+        "description": "Leave a positive review for a small business you appreciate."
+      },
+      {
+        "id": 25,
+        "description": "Offer to mentor someone who could benefit from your experience."
+      },
+      {
+        "id": 26,
+        "description": "Donate books to a local library or school."
+      },
+      {
+        "id": 27,
+        "description": "Write a thank you note to someone who has made a difference in your life."
+      },
+      {
+        "id": 28,
+        "description": "Share uplifting news or stories on social media."
+      },
+      {
+        "id": 29,
+        "description": "Offer to drive a friend or family member to an appointment or errand."
+      },
+      {
+        "id": 30,
+        "description": "Offer to do chores or errands for an elderly neighbor."
+      },
+      {
+        "id": 31,
+        "description": "Donate pet supplies to a local animal shelter."
+      },
+      {
+        "id": 32,
+        "description": "Give someone a genuine compliment."
+      },
+      {
+        "id": 33,
+        "description": "Help a friend or family member with a household project."
+      },
+      {
+        "id": 34,
+        "description": "Send a care package to a college student or someone who's away from home."
+      },
+      {
+        "id": 35,
+        "description": "Participate in a charity run or walk."
+      },
+      {
+        "id": 36,
+        "description": "Offer to teach someone a new skill or hobby."
+      },
+      {
+        "id": 37,
+        "description": "Organize a neighborhood cleanup event."
+      },
+      {
+        "id": 38,
+        "description": "Write positive affirmations on sticky notes and leave them in public places."
+      },
+      {
+        "id": 39,
+        "description": "Start a conversation with someone who seems lonely or isolated."
+      },
+      {
+        "id": 40,
+        "description": "Offer to help a friend move or declutter their home."
+      },
+      {
+        "id": 41,
+        "description": "Plant a vegetable garden and share the produce with neighbors."
+      },
+      {
+        "id": 42,
+        "description": "Send a thank you email to someone who has helped you recently."
+      },
+      {
+        "id": 43,
+        "description": "Visit a nursing home and spend time with the residents."
+      },
+      {
+        "id": 44,
+        "description": "Offer to babysit for free for a single parent who needs a break."
+      },
+      {
+        "id": 45,
+        "description": "Donate art supplies to a local school or community center."
+      },
+      {
+        "id": 46,
+        "description": "Share a favorite recipe with a friend or family member."
+      },
+      {
+        "id": 47,
+        "description": "Write positive messages on rocks and leave them in a park or along a hiking trail."
+      },
+      {
+        "id": 48,
+        "description": "Offer to cook a meal for a friend or family member who's going through a tough time."
+      },
+      {
+        "id": 49,
+        "description": "Create care packages for the homeless with essentials like socks, toiletries, and snacks."
+      },
+      {
+        "id": 50,
+        "description": "Donate blankets or warm clothing to a homeless shelter."
+      },
+      {
+        "id": 51,
+        "description": "Send a handwritten note of appreciation to a teacher or mentor."
+      },
+      {
+        "id": 52,
+        "description": "Offer to teach a free workshop or class at a local community center."
+      },
+      {
+        "id": 53,
+        "description": "Help a friend or family member with their job search by reviewing their resume or offering networking assistance."
+      },
+      {
+        "id": 54,
+        "description": "Share inspirational quotes or messages on social media."
+      },
+      {
+        "id": 55,
+        "description": "Give up your seat on a crowded bus or train."
+      },
+      {
+        "id": 56,
+        "description": "Leave a generous tip for your waiter or waitress."
+      },
+      {
+        "id": 57,
+        "description": "Offer to drive a friend or family member to the airport or bus station."
+      },
+      {
+        "id": 58,
+        "description": "Send flowers to someone who could use a pick-me-up."
+      },
+      {
+        "id": 59,
+        "description": "Help someone carry their groceries to their car."
+      },
+      {
+        "id": 60,
+        "description": "Organize a fundraiser for a local charity or cause."
+      },
+      {
+        "id": 61,
+        "description": "Give a genuine compliment to a stranger."
+      },
+      {
+        "id": 62,
+        "description": "Donate toys or games to a children's hospital."
+      },
+      {
+        "id": 63,
+        "description": "Offer to walk a friend's dog when they're busy or on vacation."
+      },
+      {
+        "id": 64,
+        "description": "Bake cookies or treats for your coworkers."
+      },
+      {
+        "id": 65,
+        "description": "Donate blood at a local blood drive."
+      },
+      {
+        "id": 66,
+        "description": "Invite a new coworker or neighbor to join you for lunch or coffee."
+      },
+      {
+        "id": 67,
+        "description": "Send a care package to a college student during finals week."
+      },
+      {
+        "id": 68,
+        "description": "Offer to pick up groceries for a friend or family member who's sick."
+      },
+      {
+        "id": 69,
+        "description": "Participate in a volunteer cleanup event at a local park or beach."
+      },
+      {
+        "id": 70,
+        "description": "Offer to help a friend or family member with yard work or gardening."
+      },
+      {
+        "id": 71,
+        "description": "Donate non-perishable food items to a local food bank."
+      },
+      {
+        "id": 72,
+        "description": "Help a friend or family member move by offering to pack boxes or load the moving truck."
+      },
+      {
+        "id": 73,
+        "description": "Share your favorite playlist with a friend or family member."
+      },
+      {
+        "id": 74,
+        "description": "Write positive notes and stick them on the mirrors in public restrooms."
+      },
+      {
+        "id": 75,
+        "description": "Offer to babysit for a friend or family member so they can have a date night."
+      },
+      {
+        "id": 76,
+        "description": "Donate school supplies to a local school or classroom in need."
+      },
+      {
+        "id": 77,
+        "description": "Offer to help a friend or family member with their spring cleaning."
+      },
+      {
+        "id": 78,
+        "description": "Buy a meal for a homeless person and sit and eat with them."
+      },
+      {
+        "id": 79,
+        "description": "Offer to help a friend or family member with their DIY home improvement projects."
+      },
+      {
+        "id": 80,
+        "description": "Donate your old electronics to a local charity or school."
+      },
+      {
+        "id": 81,
+        "description": "Offer to take a friend or family member's dog for a walk."
+      },
+      {
+        "id": 82,
+        "description": "Write a positive review for a book you've enjoyed on a book-selling website."
+      },
+      {
+        "id": 83,
+        "description": "Offer to tutor a student who's struggling in school."
+      },
+      {
+        "id": 84,
+        "description": "Donate your old eyeglasses to an organization that provides them to people in need."
+      },
+      {
+        "id": 85,
+        "description": "Offer to cook dinner for a friend or family member who's been feeling overwhelmed."
+      },
+      {
+        "id": 86,
+        "description": "Send a care package to a friend or family member who's going through a tough time."
+      },
+      {
+        "id": 87,
+        "description": "Write a thank you note to your local firefighters, police officers, or paramedics."
+      },
+      {
+        "id": 88,
+        "description": "Offer to help a friend or family member organize their closet or pantry."
+      },
+      {
+        "id": 89,
+        "description": "Offer to take a friend or family member's children to the park for the afternoon."
+      },
+      {
+        "id": 90,
+        "description": "Donate blankets or towels to a local animal shelter."
+      },
+      {
+        "id": 91,
+        "description": "Offer to watch a friend or family member's pets while they're on vacation."
+      },
+      {
+        "id": 92,
+        "description": "Donate art supplies to a local school or community center."
+      },
+      {
+        "id": 93,
+        "description": "Offer to help a friend or family member with their taxes or financial planning."
+      },
+      {
+        "id": 94,
+        "description": "Bake cookies or treats for your local fire station or police station."
+      },
+      {
+        "id": 95,
+        "description": "Offer to help a friend or family member with their job search by reviewing their resume or offering interview tips."
+      },
+      {
+        "id": 96,
+        "description": "Write a positive note and leave it in a library book for someone to find."
+      },
+      {
+        "id": 97,
+        "description": "Offer to help a friend or family member declutter their home."
+      },
+      {
+        "id": 98,
+        "description": "Donate pet food or supplies to a local animal shelter."
+      },
+      {
+        "id": 99,
+        "description": "Offer to teach a free class or workshop at a local community center."
+      },
+      {
+        "id": 100,
+        "description": "Leave a generous tip for your server at a restaurant."
+      },
+      {
+        "id": 101,
+        "description": "Offer to tutor a student for free."
+      },
+      {
+        "id": 102,
+        "description": "Donate toys to a children's hospital."
+      },
+      {
+        "id": 103,
+        "description": "Leave a positive comment on someone's social media post."
+      },
+      {
+        "id": 104,
+        "description": "Offer to run errands for an elderly neighbor."
+      },
+      {
+        "id": 105,
+        "description": "Write a letter of appreciation to a teacher."
+      },
+      {
+        "id": 106,
+        "description": "Donate school supplies to a classroom in need."
+      },
+      {
+        "id": 107,
+        "description": "Share a homemade meal with a neighbor."
+      },
+      {
+        "id": 108,
+        "description": "Offer to fix something for a friend or family member."
+      },
+      {
+        "id": 109,
+        "description": "Write positive affirmations on sticky notes and place them around your neighborhood."
+      },
+      {
+        "id": 110,
+        "description": "Offer to do a household chore for someone."
+      },
+      {
+        "id": 111,
+        "description": "Leave coupons for someone else to use at the grocery store."
+      },
+      {
+        "id": 112,
+        "description": "Send a care package to a college student."
+      },
+      {
+        "id": 113,
+        "description": "Donate pet supplies to an animal shelter."
+      },
+      {
+        "id": 114,
+        "description": "Leave a generous tip for your barista."
+      },
+      {
+        "id": 115,
+        "description": "Offer to lend a hand to a new parent."
+      },
+      {
+        "id": 116,
+        "description": "Write a thank-you note to someone who has made a difference in your life."
+      },
+      {
+        "id": 117,
+        "description": "Hold a fundraiser for a charity or cause you care about."
+      },
+      {
+        "id": 118,
+        "description": "Donate blood to a local blood bank."
+      },
+      {
+        "id": 119,
+        "description": "Send a care package to a deployed service member."
+      },
+      {
+        "id": 120,
+        "description": "Offer to help a friend or family member with their yard work."
+      },
+      {
+        "id": 121,
+        "description": "Leave a positive review for a small business online."
+      },
+      {
+        "id": 122,
+        "description": "Offer to listen to someone who needs to talk."
+      },
+      {
+        "id": 123,
+        "description": "Donate gently used books to a local library."
+      },
+      {
+        "id": 124,
+        "description": "Offer to babysit for a friend or family member for free."
+      },
+      {
+        "id": 125,
+        "description": "Compliment a stranger on something they're wearing."
+      },
+      {
+        "id": 126,
+        "description": "Give up your seat on public transportation for someone who needs it more."
+      },
+      {
+        "id": 127,
+        "description": "Pick up litter in your neighborhood or local park."
+      },
+      {
+        "id": 128,
+        "description": "Offer to help someone move."
+      },
+      {
+        "id": 129,
+        "description": "Donate blankets or warm clothing to a homeless shelter."
+      },
+      {
+        "id": 130,
+        "description": "Leave a positive note on someone's windshield."
+      },
+      {
+        "id": 131,
+        "description": "Offer to pay for a stranger's coffee or meal."
+      },
+      {
+        "id": 132,
+        "description": "Donate food to a local food bank or pantry."
+      },
+      {
+        "id": 133,
+        "description": "Send a handwritten letter to a friend or family member."
+      },
+      {
+        "id": 134,
+        "description": "Offer to help a friend or family member with their laundry."
+      },
+      {
+        "id": 135,
+        "description": "Leave a generous tip for your server at a restaurant."
+      },
+      {
+        "id": 136,
+        "description": "Buy a gift for someone just because."
+      },
+      {
+        "id": 137,
+        "description": "Offer to walk a neighbor's dog."
+      },
+      {
+        "id": 138,
+        "description": "Donate your time to a local charity or organization."
+      },
+      {
+        "id": 139,
+        "description": "Offer to teach someone a new skill or hobby."
+      },
+      {
+        "id": 140,
+        "description": "Hold the elevator door open for someone."
+      },
+      {
+        "id": 141,
+        "description": "Leave a thank-you note for your mail carrier."
+      },
+      {
+        "id": 142,
+        "description": "Send a care package to a friend who's feeling down."
+      },
+      {
+        "id": 143,
+        "description": "Offer to cook dinner for a friend or family member."
+      },
+      {
+        "id": 144,
+        "description": "Donate your old clothes to a local shelter or charity."
+      },
+      {
+        "id": 145,
+        "description": "Offer to give someone a ride to an appointment or event."
+      },
+      {
+        "id": 146,
+        "description": "Write a positive note on a sticky pad and leave it for someone to find."
+      },
+      {
+        "id": 147,
+        "description": "Offer to help a friend or family member with their computer problems."
+      },
+      {
+        "id": 148,
+        "description": "Donate school supplies to a child in need."
+      },
+      {
+        "id": 149,
+        "description": "Leave a kind note or drawing for someone to find."
+      },
+      {
+        "id": 150,
+        "description": "Offer to help someone who looks lost or confused."
+      }
+    ]
+  }
+  
